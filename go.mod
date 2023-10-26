@@ -1,6 +1,6 @@
 module github.com/houseme/bookstore
 
-go 1.16
+go 1.20
 
 require (
 	github.com/tal-tech/go-zero v1.2.3
