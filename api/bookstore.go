@@ -4,12 +4,12 @@ import (
 	"flag"
 	"fmt"
 
+	"github.com/zeromicro/go-zero/core/conf"
+	"github.com/zeromicro/go-zero/rest"
+
 	"github.com/houseme/bookstore/api/internal/config"
 	"github.com/houseme/bookstore/api/internal/handler"
 	"github.com/houseme/bookstore/api/internal/svc"
-
-	"github.com/tal-tech/go-zero/core/conf"
-	"github.com/tal-tech/go-zero/rest"
 )
 
 var configFile = flag.String("f", "etc/bookstore-api.yaml", "the config file")

@@ -1,10 +1,11 @@
 package svc
 
 import (
+	"github.com/zeromicro/go-zero/zrpc"
+
 	"github.com/houseme/bookstore/api/internal/config"
 	"github.com/houseme/bookstore/rpc/add/adder"
 	"github.com/houseme/bookstore/rpc/check/checker"
-	"github.com/tal-tech/go-zero/zrpc"
 )
 
 type ServiceContext struct {

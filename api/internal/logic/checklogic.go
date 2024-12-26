@@ -3,11 +3,11 @@ package logic
 import (
 	"context"
 
+	"github.com/zeromicro/go-zero/core/logx"
+
 	"github.com/houseme/bookstore/api/internal/svc"
 	"github.com/houseme/bookstore/api/internal/types"
 	"github.com/houseme/bookstore/rpc/check/checker"
-
-	"github.com/tal-tech/go-zero/core/logx"
 )
 
 type CheckLogic struct {

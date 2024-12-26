@@ -4,14 +4,14 @@ import (
 	"flag"
 	"fmt"
 
+	"github.com/zeromicro/go-zero/core/conf"
+	"github.com/zeromicro/go-zero/zrpc"
+	"google.golang.org/grpc"
+
 	"github.com/houseme/bookstore/rpc/add/add"
 	"github.com/houseme/bookstore/rpc/add/internal/config"
 	"github.com/houseme/bookstore/rpc/add/internal/server"
 	"github.com/houseme/bookstore/rpc/add/internal/svc"
-
-	"github.com/tal-tech/go-zero/core/conf"
-	"github.com/tal-tech/go-zero/zrpc"
-	"google.golang.org/grpc"
 )
 
 var configFile = flag.String("f", "etc/add.yaml", "the config file")
