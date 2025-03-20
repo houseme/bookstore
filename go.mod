@@ -1,6 +1,8 @@
 module github.com/houseme/bookstore
 
 go 1.23
+toolchain go1.24.1
+
 require (
 	github.com/zeromicro/go-zero v1.7.4
 	github.com/zeromicro/go-zero/tools/goctl v1.7.3
@@ -49,7 +51,7 @@ require (
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.55.0 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
-	github.com/redis/go-redis/v9 v9.7.0 // indirect
+	github.com/redis/go-redis/v9 v9.7.3 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	go.etcd.io/etcd/api/v3 v3.5.15 // indirect
 	go.etcd.io/etcd/client/pkg/v3 v3.5.15 // indirect
